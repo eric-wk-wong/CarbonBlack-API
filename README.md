@@ -18,7 +18,7 @@ on the Developer Network website on how to acquire the API token for
 
 The possible options for each credential profile are:
 
-* **uri**: The base URL of the Carbon Black server. This should include the protocol (https) and the hostname, and nothing else.
+* **uri**: The base URL of the Carbon Black server. This should include the protocol (https) and the hostname.
 * **token**: The API token for the user ID. More than one credential profile can be specified for a given server, with
   different tokens for each.
 * **orgID**: The organization key. This is required to access the Carbon Black Cloud, and can be found in the console. The format is ``123ABC45``.
